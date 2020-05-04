@@ -12,6 +12,9 @@ class MathLab():
     def multiplication(self, a, b):
         return a * b;
     
+    def power(self, a, b):
+        pass
+    
     def isPrime(self, n):
         n = abs(int(n))
         if n < 2:
