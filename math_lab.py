@@ -14,7 +14,8 @@ class MathLab:
         return a * b
     
     def power(self, a, b):
-        pass
+        result = a ** b
+        return result
     
     def isPrime(self, n):
         n = abs(int(n))
