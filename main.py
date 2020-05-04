@@ -15,3 +15,5 @@ if __name__ == "__main__":
     print("division of the numbers given is: " + str(math_lab.division(first_input, second_input)))
     
     print("multiplication of the numbers given is: " + str(math_lab.multiplication(first_input, second_input)))
+    
+    print(str(first_input) + (" is prime and " if math_lab.isPrime(first_input) else " is not prime and ") + str(second_input) + (" is prime." if math_lab.isPrime(second_input) else " is not prime."))
