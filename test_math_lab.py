@@ -38,5 +38,10 @@ class TestMathLab(unittest.TestCase):
         a = math.pi/6
         self.assertEquals(math_lab.sine(a),math.sin(a) )
 
+    def test_cosine(self):
+        math_lab = MathLab()
+        a = math.pi/3
+        self.assertEquals(math_lab.cosine(a),math.cos(a) )
+
 if __name__ == "__main__":
     unittest.main()
