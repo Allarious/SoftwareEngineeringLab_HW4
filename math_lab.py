@@ -1,3 +1,6 @@
+import math
+
+
 class MathLab:
     # this class is supposed to have some different mathematical functions like sum, subtract...
     def addition(self, a, b):
@@ -14,8 +17,7 @@ class MathLab:
         return a * b
     
     def power(self, a, b):
-        result = a ** b
-        return result
+        return a**b
     
     def isPrime(self, n):
         n = abs(int(n))
@@ -29,3 +31,17 @@ class MathLab:
             if n % x == 0:
                 return False
         return True
+
+    def sine(self, first_input):
+        return math.sin(first_input)
+
+    def cosine(self, first_input):
+        return math.cos(first_input)
+
+    def square_root(self, first_input):
+        if first_input < 0:
+            return -1
+        else:
+            return math.sqrt(first_input)
+
+
