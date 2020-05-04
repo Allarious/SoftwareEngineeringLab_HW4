@@ -18,4 +18,7 @@ class MathLabRecursive():
         return (_mul(a, b) if a<b else _mul(b, a))[1]
     
     def division(self, a, b):
-        pass
+        if a < b:
+            return a/b
+        else:
+            return 1 + self.division(a-b, b)
