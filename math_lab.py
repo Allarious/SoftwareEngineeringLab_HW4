@@ -4,13 +4,13 @@ class MathLab():
         return a + b;
     
     def subtraction(self, a, b):
-        return "not done yet"
+        return a - b;
     
     def division(self, a, b):
-        return "not done yet"
+        return a/b;
     
     def multiplication(self, a, b):
-        return "not done yet"
+        return a * b;
     
     def isPrime(self, n):
         n = abs(int(n))

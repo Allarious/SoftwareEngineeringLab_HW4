@@ -18,7 +18,7 @@ class TestMathLab(unittest.TestCase):
         math_lab = MathLab()
         self.assertEqual(math_lab.division(2, 4), 0.5)
         self.assertEqual(math_lab.division(17, 10), 1.7)
-        self.assertEqual(math_lab.division(4, 20), 0.25)
+        self.assertEqual(math_lab.division(4, 20), 0.2)
         
     def test_multiplication(self):
         math_lab = MathLab()
