@@ -1,3 +1,5 @@
+import math
+
 import unittest
 from math_lab import MathLab
 
@@ -30,6 +32,11 @@ class TestMathLab(unittest.TestCase):
         math_lab = MathLab()
         self.assertEquals(math_lab.square_root(16), 4)
         self.assertEquals(math_lab.square_root(-3), -1)
+
+    def test_sine(self):
+        math_lab = MathLab()
+        a = math.pi/6
+        self.assertEquals(math_lab.sine(a),math.sin(a) )
 
 if __name__ == "__main__":
     unittest.main()
