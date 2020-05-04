@@ -34,3 +34,7 @@ class MathLab:
 
     def sine(self, first_input):
         return math.sin(first_input)
+
+    def cosine(self, first_input):
+        return math.cos(first_input)
+
