@@ -10,7 +10,7 @@ class MathLabRecursive():
         return self.subtraction(a - 1, b - 1)
     
     def multiplication(self, a, b):
-        
+        pass
     
     def division(self, a, b):
         pass
