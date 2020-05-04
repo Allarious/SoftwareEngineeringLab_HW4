@@ -26,6 +26,10 @@ class TestMathLab(unittest.TestCase):
         self.assertEqual(math_lab.multiplication(17, 10), 170)
         self.assertEqual(math_lab.multiplication(4, 19), 76)
         
-        
+    def test_squareRoot(self):
+        math_lab = MathLab()
+        self.assertEquals(math_lab.square_root(16), 4)
+        self.assertEquals(math_lab.square_root(-3), -1)
+
 if __name__ == "__main__":
     unittest.main()
