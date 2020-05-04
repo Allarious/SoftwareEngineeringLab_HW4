@@ -38,3 +38,10 @@ class MathLab:
     def cosine(self, first_input):
         return math.cos(first_input)
 
+    def square_root(self, first_input):
+        if first_input < 0:
+            return -1
+        else:
+            return math.sqrt(first_input)
+
+
