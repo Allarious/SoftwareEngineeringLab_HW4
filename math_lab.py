@@ -1,16 +1,17 @@
-class MathLab():
-    # this class is supposed to have some different mathmatical functions like sum, subtract...
+class MathLab:
+    # this class is supposed to have some different mathematical functions like sum, subtract...
     def addition(self, a, b):
-        return a + b;
+        return a + b
     
     def subtraction(self, a, b):
-        return a - b;
-    
+
+        return a - b
+
     def division(self, a, b):
-        return a/b;
+        return a/b
     
     def multiplication(self, a, b):
-        return a * b;
+        return a * b
     
     def power(self, a, b):
         pass
