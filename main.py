@@ -8,4 +8,10 @@ if __name__ == "__main__":
     first_input = int(input("Please Enter the first number: "))
     second_input = int(input("Great! now enter the second number: "))
 
-    print(math_lab.sum(first_input, second_input))
+    print("addition of the numbers given is: " + str(math_lab.addition(first_input, second_input)))
+
+    print("subtraction of the numbers given is: " + str(math_lab.subtraction(first_input, second_input)))
+    
+    print("division of the numbers given is: " + str(math_lab.division(first_input, second_input)))
+    
+    print("multiplication of the numbers given is: " + str(math_lab.multiplication(first_input, second_input)))

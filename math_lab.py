@@ -1,13 +1,13 @@
 class MathLab():
     # this class is supposed to have some different mathmatical functions like sum, subtract...
-    def sum(self, a, b):
+    def addition(self, a, b):
         return a + b;
     
-    def subtract(self, a, b):
+    def subtraction(self, a, b):
         return "not done yet"
     
-    def divide(self, a, b):
+    def division(self, a, b):
         return "not done yet"
     
-    def multiply(self, a, b):
+    def multiplication(self, a, b):
         return "not done yet"
