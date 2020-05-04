@@ -1,3 +1,6 @@
+import math
+
+
 class MathLab:
     # this class is supposed to have some different mathematical functions like sum, subtract...
     def addition(self, a, b):
@@ -28,3 +31,6 @@ class MathLab:
             if n % x == 0:
                 return False
         return True
+
+    def sine(self, first_input):
+        return math.sin(first_input)
